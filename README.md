@@ -1,2 +1,2 @@
 # BottomNavigationView
-Bottom Navigation View with Material Design in Kotlin
+Bottom Navigation View tutorial with Material Design in Kotlin
