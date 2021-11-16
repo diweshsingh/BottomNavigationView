@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3E50B4</color>
+    <color name="colorPrimaryDark">#2F3E9E</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="bottom_navigation_unselected_color">#CC000000</color>
+    <color name="fragment_background_color">#E5E5E5</color>
+
+</resources>

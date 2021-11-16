@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_navigation"
+        android:contentDescription="@string/home_fragment_bottom_navigation_title"
+        android:icon="@drawable/ic_home_selector"
+        android:title="@string/home_fragment_bottom_navigation_title" />
+    <item
+        android:id="@+id/trending_navigation"
+        android:contentDescription="@string/trending_fragment_bottom_navigation_title"
+        android:icon="@drawable/ic_trending_selector"
+        android:title="@string/trending_fragment_bottom_navigation_title" />
+    <item
+        android:id="@+id/favourite_navigation"
+        android:contentDescription="@string/favourite_fragment_bottom_navigation_title"
+        android:icon="@drawable/ic_favourite_selector"
+        android:title="@string/favourite_fragment_bottom_navigation_title" />
+
+</menu>
