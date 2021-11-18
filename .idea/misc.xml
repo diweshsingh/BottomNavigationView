@@ -8,7 +8,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_bottom_navigation.xml" value="0.24375" />
+        <entry key="app/src/main/res/drawable/ic_home_selector.xml" value="0.2598958333333333" />
+        <entry key="app/src/main/res/layout/activity_bottom_navigation.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_favourite.xml" value="0.2028985507246377" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2028985507246377" />
+        <entry key="app/src/main/res/layout/fragment_trending.xml" value="0.2028985507246377" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.24375" />
       </map>
     </option>
   </component>

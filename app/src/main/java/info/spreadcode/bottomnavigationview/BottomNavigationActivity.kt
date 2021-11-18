@@ -5,10 +5,11 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.navigation.NavigationBarView
 import kotlinx.android.synthetic.main.activity_bottom_navigation.*
 
 class BottomNavigationActivity : AppCompatActivity(),
-    BottomNavigationView.OnNavigationItemSelectedListener {
+    NavigationBarView.OnItemSelectedListener {
 
     private val homeFragment = HomeFragment()
     private val trendingFragment = TrendingFragment()
@@ -66,7 +67,7 @@ class BottomNavigationActivity : AppCompatActivity(),
         activeFragment = homeFragment
 
         // Attach bottom navigation view to listener
-        bottom_navigation_view.setOnNavigationItemSelectedListener(this)
+        bottom_navigation_view.setOnItemSelectedListener(this)
 
         // set first fragment title to the toolbar title
         supportActionBar!!.title = getString(R.string.home_fragment_bottom_navigation_title)
